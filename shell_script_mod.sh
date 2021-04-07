@@ -3,7 +3,7 @@
 ## 克隆jd_diy仓库
 if [ ! -d "/jd_diy/" ]; then
     echo "未检查到克隆jd_diy仓库，初始化下载相关脚本..."
-    git clone https://gitee.com/updateme/jd_diy.git /jd_diy
+    git clone https://github.com/huangmaoqiu/jd_diy.git /jd_diy
 else
     echo "更新jd_diy脚本相关文件..."
     git -C /jd_diy reset --hard
